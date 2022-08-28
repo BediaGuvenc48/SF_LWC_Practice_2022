@@ -1,0 +1,24 @@
+<template>
+
+
+    <lightning-card title="GET PISCKLIST VALUES">
+      
+        <div class="slds-m-around_medium">
+
+            <lightning-combobox
+
+            label="Select your industry "
+            options={industryOptions}
+            value={selectedIndustry}
+            onchange={industryChangeHandler}>
+       
+        
+        
+        
+        </lightning-combobox>
+        <div class="slsds-m-top_small"> Selected Industry is : {selectedIndustry}</div>
+        </div>
+
+    </lightning-card>
+    
+</template>
