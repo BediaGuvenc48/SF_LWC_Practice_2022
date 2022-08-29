@@ -12,6 +12,8 @@ const FIELDS=[NAME_FIELD, TYPE_FIELD, INDUSTRY_FIELDm,ANNUAL_REVENUE_FIELD];
 
 export default class GetAccountRecord extends LightningElement {
 
+    //if you wanna pass recordID publicly you need to use @api tag
+
   recordId='0018c00002SzeFTAAZ';
 
   account='';
