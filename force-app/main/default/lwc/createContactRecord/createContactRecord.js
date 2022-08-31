@@ -1,7 +1,7 @@
 import { LightningElement } from 'lwc';
 import CONTACT_OBJECT from '@salesforce/schema/Contact';
 import { createRecord } from 'lightning/uiRecordApi';
-import {ShowToastEvent} from 'lightning/PlatformShowToastEvent';
+import {ShowToastEvent} from 'lightning/platformShowToastEvent';
 
 
 
